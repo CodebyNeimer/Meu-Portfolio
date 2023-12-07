@@ -7,10 +7,14 @@ export const StyledContactCard = styled.div`
     display: flex;
     gap: 50px;
 
+    a, button {
+        cursor: pointer;
+    }
+
     .img--container {
         max-height: 68px;
-        width: 68px;
-        height: 68px;
+        max-width: 68px;
+        width: 100%;
         border-radius: 8px;
         display: flex;
         align-items: center;

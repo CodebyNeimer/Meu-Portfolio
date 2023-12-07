@@ -27,6 +27,7 @@ export const Reset = createGlobalStyle`
     	vertical-align: baseline;
         box-sizing: border-box;
     	outline: none;
+        font-family: 'Sofia Sans', sans-serif;
     }
     /* HTML5 display-role reset for older browsers */
     article, aside, details, figcaption, figure, 
