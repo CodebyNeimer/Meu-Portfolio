@@ -35,7 +35,7 @@ export const LandingPage = () => {
                         </div>
                     </div>
                     <div className="container--right">
-                        <img src="./src/assets/banner-landingpage.png"/>
+                        <img src="./src/assets/trying-banner.png"/>
                     </div>
                 </div>
             </IntroContainer>

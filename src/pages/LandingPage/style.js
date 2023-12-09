@@ -122,6 +122,10 @@ export const IntroContainer = styled.div`
         width: 100%;
     }
 
+    .container--right > img {
+        border-radius: 10px;
+    }
+
     @media (max-width: 1200px){
         .container--right {
             display: none;
