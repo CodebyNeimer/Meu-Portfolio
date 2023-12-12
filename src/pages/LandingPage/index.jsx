@@ -3,6 +3,13 @@ import { Card } from "../../components/Card"
 import { IntroContainer, MainContainer, ContactContainer } from "./style"
 import { ContactCard } from "../../components/ContactCard"
 import { Footer } from "../../components/Footer"
+import AvatarImg from "../../assets/portrait.png"
+import BtCircle from "../../assets/Bt-Circle.png"
+import Tecnologias from "../../assets/tecnologias.png"
+import TryingBanner from "../../assets/trying-banner.png"
+import WhatsBtn from "../../assets/whatsBtn.png"
+import MainBtn from "../../assets/mailBtn.png"
+import LinkedinBtn from "../../assets/linkedinBtn.png"
 
 export const LandingPage = () => {
     return (
@@ -12,7 +19,7 @@ export const LandingPage = () => {
                 <div className="container">
                     <div className="container--left">
                         <div className="photo-and-text">
-                            <img src="src/assets/portrait.png" width="56px" height="56px"/>
+                            <img src={AvatarImg} width="56px" height="56px"/>
                             <span> Olá, Bem-vindo ao meu Portfolio, aqui está um pouco sobre mim! </span>
                         </div>
                         <div className="title--section">
@@ -28,14 +35,14 @@ export const LandingPage = () => {
                         </div>
                         <div className="button--section">
                             <a href="https://github.com/CodebyNeimer" target="__blank"><button>Github</button></a>
-                            <img src="./src/assets/Bt-Circle.png" width="48px" height="48px"/>
+                            <img src={BtCircle} width="48px" height="48px"/>
                         </div>
                         <div className="tech--icons">
-                            <img src="./src/assets/tecnologias.png"/>
+                            <img src={Tecnologias}/>
                         </div>
                     </div>
                     <div className="container--right">
-                        <img src="./src/assets/trying-banner.png"/>
+                        <img src={TryingBanner}/>
                     </div>
                 </div>
             </IntroContainer>
@@ -87,7 +94,7 @@ export const LandingPage = () => {
                         <ContactCard
                             divStyle={{background: "linear-gradient(180deg, #50C571 0%, #50CF9A 100%)"}}
                             link="https://wa.me/5511992395941"
-                            src="./src/assets/whatsBtn.png"
+                            src={WhatsBtn}
                             title="Meu Telefone"
                             description="Estou disponivel para conversarmos!"
                             linkTo="https://wa.me/5511992395941"
@@ -96,7 +103,7 @@ export const LandingPage = () => {
                         <ContactCard
                             divStyle={{background: "linear-gradient(180deg, #BD3B9B 0%, #EE5BC7 100%)"}}
                             link="mailto:neimer.hamad@gmail.com"
-                            src="./src/assets/mailBtn.png"
+                            src={MainBtn}
                             title="Meu Email"
                             description="Me envie um email para conversarmos!"
                             linkTo="mailto:neimer.hamad@gmail.com"
@@ -105,7 +112,7 @@ export const LandingPage = () => {
                         <ContactCard
                             divStyle={{background: "linear-gradient(180deg, #4E73FF 0%, #506CCF 100%)"}}
                             link="https://www.linkedin.com/in/neimer-hamad/"
-                            src="./src/assets/linkedinBtn.png"
+                            src={LinkedinBtn}
                             title="Meu Linkedin"
                             description="Conecte-se comigo no linkedin para conversarmos!"
                             linkTo="https://www.linkedin.com/in/neimer-hamad/"
