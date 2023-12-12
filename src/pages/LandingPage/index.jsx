@@ -12,7 +12,7 @@ export const LandingPage = () => {
                 <div className="container">
                     <div className="container--left">
                         <div className="photo-and-text">
-                            <img src="./src/assets/portrait.png" width="56px" height="56px"/>
+                            <img src="src/assets/portrait.png" width="56px" height="56px"/>
                             <span> Olá, Bem-vindo ao meu Portfolio, aqui está um pouco sobre mim! </span>
                         </div>
                         <div className="title--section">
